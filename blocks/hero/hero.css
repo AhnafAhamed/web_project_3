@@ -1,0 +1,10 @@
+@import url("./__heading/hero__heading.css");
+@import url("./__sub-heading/hero__sub-heading.css");
+@import url("./__image/hero__image.css");
+@import url("./__image-caption/hero__image-caption.css");
+
+.hero {
+  border: 0px solid red;
+  width: 984px;
+  margin: 58px auto 92px auto;
+}
