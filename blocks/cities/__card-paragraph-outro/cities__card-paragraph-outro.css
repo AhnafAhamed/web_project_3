@@ -1,0 +1,8 @@
+.cities__card-paragraph-outro {
+  margin: 0;
+  width: 484px;
+  font-size: 16px;
+  line-height: 26.08px;
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
