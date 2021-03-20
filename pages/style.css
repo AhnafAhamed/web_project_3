@@ -29,3 +29,6 @@
 @import url("../blocks/cities/__card-paragraph-outro/cities__card-paragraph-outro.css");
 @import url("../blocks/cities/__card-url/cities__card-url.css");
 @import url("../blocks/cities/__card-pricing/cities__card-pricing.css");
+@import url("../blocks/route/route.css");
+@import url("../blocks/route/__heading/route__heading.css");
+@import url("../blocks/route/__sub-heading/route__sub-heading.css");

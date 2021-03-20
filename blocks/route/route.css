@@ -1,0 +1,12 @@
+.route {
+  margin: auto;
+  margin-bottom: 92px;
+  width: 1184px;
+  height: 740px;
+  background-image: url("/images/route-image.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
