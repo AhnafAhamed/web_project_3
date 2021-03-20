@@ -2,7 +2,7 @@
   font-size: 16px;
   line-height: 26px;
   margin: 0;
-  width: 484px;
+  max-width: 484px;
   height: 26px;
   grid-column-start: 2;
   grid-row-start: 5;

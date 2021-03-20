@@ -1,5 +1,5 @@
 .cities__card-paragraph-intro {
-  width: 484px;
+  max-width: 484px;
   font-size: 16px;
   line-height: 26.08px;
   margin: 0;
