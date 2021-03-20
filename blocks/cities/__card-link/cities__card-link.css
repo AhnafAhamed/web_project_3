@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration: underline;
+  margin-top: 4px;
   grid-column-start: 2;
   grid-row-start: 2;
 }

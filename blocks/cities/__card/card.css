@@ -1,8 +1,10 @@
 .cities__card {
-  border: 1px solid gold;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  row-gap: 48px;
+  column-gap: 40px;
 }
-.cities__card:nth-child(1) {
-  grid-template-rows: repeat(5, auto);
+.cities__card:not(:last-child) {
+  margin-bottom: 80px;
 }
