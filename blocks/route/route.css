@@ -1,4 +1,6 @@
 .route {
+  text-decoration: none;
+  color: inherit;
   margin: auto;
   margin-bottom: 92px;
   width: 1184px;
