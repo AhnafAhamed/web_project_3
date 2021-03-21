@@ -4,12 +4,21 @@
   max-width: 456px;
   height: 22px;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   text-decoration: underline;
   margin-top: 4px;
-  grid-column-start: 2;
-  grid-row-start: 2;
 }
 .cities__card-link:hover {
   opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .cities__card-link {
+    max-width: 352px;
+  }
+}
+@media (max-width: 320px) {
+  .cities__card-link {
+    width: 288px;
+    margin: auto;
+  }
 }

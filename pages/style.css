@@ -20,7 +20,7 @@
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__image/gallery__image.css");
 @import url("../blocks/cities/cities.css");
-@import url("../blocks/cities/__card/card.css");
+@import url("../blocks/cities/__card/cities__card.css");
 @import url("../blocks/cities/__card-heading/cities__card-heading.css");
 @import url("../blocks/cities/__card-image/cities__card-image.css");
 @import url("../blocks/cities/__resources/cities__card-resources.css");

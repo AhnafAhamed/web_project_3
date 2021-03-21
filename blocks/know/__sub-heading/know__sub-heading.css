@@ -2,6 +2,20 @@
   width: 690px;
   height: 68px;
   font-size: 24px;
+  line-height: 1.41;
   margin: 0;
   margin-bottom: 32px;
+}
+@media (max-width: 768px) {
+  .know__sub-heading {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .know__sub-heading {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 1.25;
+  }
 }

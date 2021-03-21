@@ -1,8 +1,38 @@
 .cities__card-heading {
-  width: 460px;
-  min-height: 76px;
+  max-width: 460px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.05;
   margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .cities__card-heading {
+    max-width: 440px;
+  }
+}
+@media (max-width: 768px) {
+  .cities__card-heading {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 768px) {
+  .cities__card-heading {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+@media (max-width: 320px) {
+  .cities__card-heading {
+    width: 288px;
+    font-size: 32px;
+    line-height: 1.1;
+    margin: auto;
+    grid-row-start: 1;
+    margin-bottom: 30px;
+  }
 }

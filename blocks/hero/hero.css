@@ -1,5 +1,10 @@
 .hero {
   border: 0px solid red;
-  width: 984px;
-  margin: 58px auto 92px auto;
+  width: max-content;
+  margin: 0px auto 92px auto;
+}
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: 88px;
+  }
 }

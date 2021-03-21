@@ -1,4 +1,23 @@
 .cities {
-  margin: 0px 148px 92px 148px;
+  width: 984px;
+  /* margin: 0px 148px 92px 148px; */
+  margin: auto;
+  margin-bottom: 148px;
   padding: 0;
+}
+@media (max-width: 1024px) {
+  .cities {
+    width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cities {
+    width: 720px;
+  }
+}
+@media (max-width: 320px) {
+  .cities {
+    width: 320px;
+  }
 }

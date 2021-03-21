@@ -1,3 +1,9 @@
-.footer__links-item:not(:last-child) {
+.footer__links-item:not(:last-of-type) {
   margin-right: 18px;
+}
+@media (max-width: 320px) {
+  .footer__links-item:not(:last-of-type) {
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
 }

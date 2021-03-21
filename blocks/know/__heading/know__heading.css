@@ -1,9 +1,21 @@
 .know__heading {
-  width: 690px;
-  height: 116px;
+  max-width: 690px;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.07;
   margin: 0;
   margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .know__heading {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .know__heading {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.1;
+  }
 }

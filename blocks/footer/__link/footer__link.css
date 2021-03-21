@@ -7,6 +7,3 @@
 .footer__link:hover {
   opacity: 0.8;
 }
-.footer__link:not(:last-of-type) {
-  margin-right: 18px;
-}
