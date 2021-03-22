@@ -25,8 +25,7 @@
 @import url("../blocks/cities/__card-image/cities__card-image.css");
 @import url("../blocks/cities/__resources/cities__card-resources.css");
 @import url("../blocks/cities/__card-link/cities__card-link.css");
-@import url("../blocks/cities/__card-paragraph-intro/cities__card-paragraph-intro.css");
-@import url("../blocks/cities/__card-paragraph-outro/cities__card-paragraph-outro.css");
+@import url("../blocks/cities/__card-paragraph/cities__card-paragraph.css");
 @import url("../blocks/cities/__card-url/cities__card-url.css");
 @import url("../blocks/cities/__card-pricing/cities__card-pricing.css");
 @import url("../blocks/route/route.css");

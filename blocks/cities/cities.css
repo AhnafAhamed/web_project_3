@@ -1,23 +1,22 @@
 .cities {
-  width: 984px;
-  /* margin: 0px 148px 92px 148px; */
+  max-width: 984px;
   margin: auto;
   margin-bottom: 148px;
   padding: 0;
 }
 @media (max-width: 1024px) {
   .cities {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media (max-width: 768px) {
   .cities {
-    width: 720px;
+    max-width: 720px;
   }
 }
 @media (max-width: 320px) {
   .cities {
-    width: 320px;
+    max-width: 320px;
   }
 }

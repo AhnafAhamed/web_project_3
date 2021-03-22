@@ -9,6 +9,13 @@
   }
 }
 
+@media (max-width: 945px) {
+  .gallery__image {
+    width: 250px;
+    height: 225px;
+  }
+}
+
 @media (max-width: 768px) {
   .gallery__image {
     width: 352px;

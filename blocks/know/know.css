@@ -1,21 +1,21 @@
 .know {
-  width: 984px;
+  max-width: 984px;
   margin: auto;
   margin-bottom: 92px;
 }
 
 @media (max-width: 1024px) {
   .know {
-    width: 928px;
+    max-width: 928px;
   }
 }
 @media (max-width: 768px) {
   .know {
-    width: 720px;
+    max-width: 720px;
   }
 }
 @media (max-width: 320px) {
   .know {
-    width: 288px;
+    max-width: 288px;
   }
 }
