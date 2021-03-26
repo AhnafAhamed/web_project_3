@@ -4,7 +4,8 @@
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css");
-@import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-links/_en/header__lang-links_en.css");
+@import url("../blocks/header/__lang-links/_es/header__lang-links_es.css");
 @import url("../blocks/hero/hero.css");
 @import url("../blocks/hero/__heading/hero__heading.css");
 @import url("../blocks/hero/__sub-heading/hero__sub-heading.css");
@@ -20,6 +21,7 @@
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery/__image/gallery__image.css");
 @import url("../blocks/cities/cities.css");
+@import url("../blocks/cities/__list/cities__list.css");
 @import url("../blocks/cities/__card/cities__card.css");
 @import url("../blocks/cities/__card-heading/cities__card-heading.css");
 @import url("../blocks/cities/__card-image/cities__card-image.css");
@@ -28,11 +30,13 @@
 @import url("../blocks/cities/__card-paragraph/cities__card-paragraph.css");
 @import url("../blocks/cities/__card-url/cities__card-url.css");
 @import url("../blocks/cities/__card-pricing/cities__card-pricing.css");
-@import url("../blocks/route/route.css");
-@import url("../blocks/route/__heading/route__heading.css");
-@import url("../blocks/route/__sub-heading/route__sub-heading.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__heading/cover__heading.css");
+@import url("../blocks/cover/__sub-heading/cover__sub-heading.css");
+@import url("../blocks/cover/__link/cover__link.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__links-item/footer__links-item.css");
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
 @import url("../blocks/footer/__copyrights/footer__copyrights.css");

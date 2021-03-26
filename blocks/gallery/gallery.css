@@ -22,8 +22,12 @@
     margin-bottom: 88px;
   }
 }
-
-@media (max-width: 320px) {
+/* @media (max-width: 750px) {
+  .gallery {
+  
+  }
+} */
+@media (max-width: 750px) {
   .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);

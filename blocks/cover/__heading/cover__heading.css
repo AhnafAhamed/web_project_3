@@ -1,4 +1,4 @@
-.route__heading {
+.cover__heading {
   max-width: 656px;
   margin: 0;
   margin-bottom: 32px;
@@ -7,8 +7,14 @@
   line-height: 1.05;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .cover__heading {
+    font-size: 50px;
+    line-height: 1.1;
+  }
+}
 @media (max-width: 320px) {
-  .route__heading {
+  .cover__heading {
     max-width: 288px;
     font-size: 32px;
     line-height: 1.1;

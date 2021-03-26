@@ -5,16 +5,24 @@
   text-transform: uppercase;
   color: #aaaaaa;
   margin: 0;
+  letter-spacing: 3.2px;
 }
 @media (max-width: 768px) {
   .cities__card-url {
     line-height: 1;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .cities__card-url {
     width: 288px;
     margin: auto;
     margin-bottom: 12px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cities__card-url {
+    margin-left: 16px;
   }
 }

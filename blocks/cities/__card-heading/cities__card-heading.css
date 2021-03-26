@@ -19,20 +19,18 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .cities__card-heading {
-    max-width: 340px;
-    font-size: 42px;
-    line-height: 1.1;
+    width: 288px;
+    font-size: 32px;
+    margin: auto;
+    grid-row-start: 1;
+    margin-left: 0px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 320px) {
   .cities__card-heading {
-    width: 288px;
-    font-size: 32px;
-    line-height: 1.1;
-    margin: auto;
-    grid-row-start: 1;
-    margin-bottom: 30px;
+    margin-left: 16px;
   }
 }

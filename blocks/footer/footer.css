@@ -11,14 +11,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
-    max-width: 720px;
+    flex-direction: column;
+    max-width: 94%;
   }
 }
 @media (max-width: 320px) {
   .footer {
     max-width: 288px;
-    flex-direction: column;
   }
 }

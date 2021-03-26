@@ -9,7 +9,7 @@
 .cities__card-link:hover {
   opacity: 0.8;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .cities__card-link {
     max-width: 352px;
   }

@@ -16,3 +16,8 @@
     margin-left: 16px;
   }
 }
+@media (max-width: 767px) and (min-width: 500px) {
+  .hero__image-caption {
+    max-width: 500px;
+  }
+}

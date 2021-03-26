@@ -6,19 +6,28 @@
 @media (max-width: 1024px) {
   .hero {
     max-width: 928px;
-    min-height: 580px;
   }
 }
 
-@media (max-width: 9488px) {
+@media (max-width: 948px) {
   .hero {
     max-width: 800px;
-    min-height: 480px;
   }
 }
 
 @media (max-width: 768px) {
   .hero {
     margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    margin-bottom: 64px;
+  }
+}
+@media (max-width: 767px) and (min-width: 500px) {
+  .hero__image {
+    max-width: 500px;
   }
 }

@@ -22,6 +22,12 @@
     height: 264px;
   }
 }
+@media (max-width: 750px) {
+  .gallery__image {
+    width: 438px;
+    height: 366px;
+  }
+}
 
 @media (max-width: 320px) {
   .gallery__image {
