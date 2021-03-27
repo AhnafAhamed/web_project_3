@@ -1,12 +1,15 @@
 .cities__card-resources {
+  width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  margin: 30px 16px;
+  padding: 0;
 }
-@media (max-width: 600px) {
+
+@media screen and (min-width: 768px) {
   .cities__card-resources {
-    max-width: 320px;
-    grid-row-start: 2;
-    margin-bottom: 30px;
+    grid-area: resources;
+    margin: 0;
+    align-self: end;
   }
 }

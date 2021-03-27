@@ -1,27 +1,23 @@
 .cities__card-image {
-  max-width: 460px;
-  min-height: 460px;
-  grid-column-start: 1;
-  grid-row-start: 2;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-left: 0px;
+  object-fit: cover;
+  grid-area: image;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .cities__card-image {
-    max-width: 440px;
-    min-height: 440px;
+    margin: 0;
+    padding: 0;
   }
 }
-@media (max-width: 768px) {
+@media screen and (min-width: 1024px) {
   .cities__card-image {
-    max-width: 340px;
-    min-height: 340px;
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (min-width: 1280px) {
   .cities__card-image {
-    width: 320px;
-    height: 320px;
-    grid-row-start: 3;
   }
 }

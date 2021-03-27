@@ -1,28 +1,15 @@
 .cities__card-url {
-  max-width: 456px;
-  font-size: 12px;
-  line-height: 1.6;
-  text-transform: uppercase;
   color: #aaaaaa;
-  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
   letter-spacing: 3.2px;
-}
-@media (max-width: 768px) {
-  .cities__card-url {
-    line-height: 1;
-  }
-}
-@media (max-width: 600px) {
-  .cities__card-url {
-    width: 288px;
-    margin: auto;
-    margin-bottom: 12px;
-    margin-left: 0px;
-  }
+  width: 90%;
+  margin-bottom: 12px;
+  align-self: flex-start;
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 1024px) {
   .cities__card-url {
-    margin-left: 16px;
+    line-height: 20px;
   }
 }

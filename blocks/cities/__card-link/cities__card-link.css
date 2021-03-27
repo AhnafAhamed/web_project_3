@@ -1,22 +1,11 @@
 .cities__card-link {
-  color: inherit;
-  max-width: 456px;
   font-size: 18px;
-  line-height: 1.2;
-  text-decoration: underline;
-  margin-top: 4px;
+  line-height: 22px;
+  color: #fff;
 }
+
 .cities__card-link:hover {
+  cursor: pointer;
   opacity: 0.8;
-}
-@media (max-width: 600px) {
-  .cities__card-link {
-    max-width: 352px;
-  }
-}
-@media (max-width: 320px) {
-  .cities__card-link {
-    width: 288px;
-    margin: auto;
-  }
+  transition: 0.4s;
 }

@@ -1,4 +1,25 @@
 .cover__link {
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
+    url("../../../images/route-image.png") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
   text-decoration: none;
-  color: inherit;
+  text-align: center;
+  padding-top: 18.4%;
+  padding-bottom: 18.4%;
+  color: #fff;
+}
+.cover__link:hover {
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)),
+    url("../../../images/route-image.png") center center;
 }

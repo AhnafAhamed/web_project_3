@@ -3,6 +3,7 @@
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang-item/header__lang-item.css");
 @import url("../blocks/header/__lang-links/header__lang-links.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
 @import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
@@ -23,6 +24,7 @@
 @import url("../blocks/cities/cities.css");
 @import url("../blocks/cities/__list/cities__list.css");
 @import url("../blocks/cities/__card/cities__card.css");
+@import url("../blocks/cities/__card-text/cities__card-text.css");
 @import url("../blocks/cities/__card-heading/cities__card-heading.css");
 @import url("../blocks/cities/__card-image/cities__card-image.css");
 @import url("../blocks/cities/__resources/cities__card-resources.css");
