@@ -2,11 +2,11 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  width: 90%;
   margin-left: 16px;
+  margin-bottom: 0px;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .cities__card-heading {
     grid-area: card-heading;
     font-size: 42px;
@@ -15,9 +15,10 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .cities__card-heading {
     font-size: 72px;
     line-height: 76px;
+    width: 90%;
   }
 }

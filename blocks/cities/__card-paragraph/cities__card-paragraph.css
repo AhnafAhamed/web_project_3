@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  .place__paragraph:first-of-type {
+  .cities__card-paragraph:first-of-type {
     margin: 0;
   }
 }

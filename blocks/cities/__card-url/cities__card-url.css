@@ -1,5 +1,6 @@
 .cities__card-url {
   color: #aaaaaa;
+  text-transform: uppercase;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 3.2px;

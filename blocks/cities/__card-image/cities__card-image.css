@@ -3,21 +3,25 @@
   margin-bottom: 24px;
   margin-left: 0px;
   object-fit: cover;
-  grid-area: image;
 }
 
 @media screen and (min-width: 768px) {
   .cities__card-image {
+    grid-area: image;
     margin: 0;
     padding: 0;
+    width: 340px;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .cities__card-image {
+    width: 440px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cities__card-image {
+    width: 460px;
   }
 }

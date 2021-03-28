@@ -6,14 +6,12 @@
 
 @media (min-width: 768px) {
   .cover {
-    margin: auto;
     margin-bottom: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    margin: auto;
     margin-bottom: 92px;
   }
 }
