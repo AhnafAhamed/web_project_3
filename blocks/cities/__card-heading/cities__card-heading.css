@@ -12,6 +12,7 @@
     font-size: 42px;
     line-height: 46px;
     margin: 0;
+    align-self: end;
   }
 }
 

@@ -8,13 +8,13 @@
   margin: auto;
 }
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
   .cities__card {
     display: grid;
-    grid-template-columns: repeat(2, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-    "card-heading resources"
-    "image card-text";
+      "card-heading resources"
+      "image card-text";
     width: 720px;
     row-gap: 48px;
     column-gap: 28px;
@@ -41,5 +41,3 @@
     column-gap: 40px;
   }
 }
-
-
